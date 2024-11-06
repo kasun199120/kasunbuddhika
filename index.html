@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasun Buddhika - Administration Assistant</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --light-bg: #f5f6fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+        }
+
+        .header-content {
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header-content h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            color: #ecf0f1;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            background: var(--secondary-color);
+            color: white;
+            padding: 1rem 0;
+        }
+
+        .contact-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .contact-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Main Content */
+        main {
+            padding: 2rem 0;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--secondary-color);
+        }
+
+        /* Experience */
+        .experience-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .experience-item h4 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .experience-item p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill-category {
+            background: var(--light-bg);
+            padding: 1rem;
+            border-radius: 4px;
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .skill-list li::before {
+            content: "•";
+            color: var(--secondary-color);
+            position: absolute;
+            left: 0;
+        }
+
+        /* Language Proficiency */
+        .language-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .language-item {
+            background: var(--light-bg);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2rem;
+            }
+
+            .contact-list {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>KASUN BUDDHIKA</h1>
+            <h2>Administration Assistant</h2>
+        </div>
+    </header>
+
+    <div class="contact-info">
+        <div class="container">
+            <ul class="contact-list">
+                <li><i class="fas fa-phone"></i> +971 589 572 074</li>
+                <li><i class="fas fa-envelope"></i> kasunperera19910820@gmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Al Nadha, UAE</li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="container">
+        <section>
+            <h3>About Me</h3>
+            <p>Highly organized and detail-oriented Administration Assistant with over 05 years of experience in providing exceptional support and streamlining office operations. Adept at managing schedules, coordinating meetings, handling communications, and maintaining records. Proficient in various office software and technology, including Microsoft Office Suite (Word, Excel, Outlook), and experienced in managing databases and CRM systems.</p>
+        </section>
+
+        <section>
+            <h3>Professional Experience</h3>
+            <div class="experience-item">
+                <h4>Administrative Officer | Sap Digital Printing - Sri Lanka (2019 – 2024)</h4>
+                <ul>
+                    <li>Handle general office administration, including scheduling, coordinating meetings, and managing correspondence</li>
+                    <li>Assist with document management, data entry, and filing</li>
+                    <li>Provide excellent customer service and greet visitors warmly</li>
+                    <li>Negotiated with suppliers to reduce office supply costs by 20%</li>
+                    <li>Contributed to a 15% increase in positive feedback from clients and visitors</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h4>Administration Assistant | Quolikem International Pvt Ltd - Sri Lanka (2016-2019)</h4>
+                <ul>
+                    <li>Maintained accurate records, files, and documentation</li>
+                    <li>Managed administrative staff and daily responsibilities</li>
+                    <li>Acted as point of contact for internal and external communication</li>
+                    <li>Assisted with budgeting and processing invoices</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>Education</h3>
+            <div class="experience-item">
+                <h4>Bachelor of Business Management</h4>
+                <p>Open University Sri Lanka (2016 - 2022)</p>
+            </div>
+            <div class="experience-item">
+                <h4>Diploma in Business Management</h4>
+                <p>Open University - Sri Lanka (2016 - 2021)</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Professional Qualifications</h3>
+            <ul class="skill-list">
+                <li>Certificate in Computer Hardware and networking - Turnkey It campus, Sri Lanka</li>
+                <li>Graphic Design - Alison 1926-36409236</li>
+                <li>Navigating On-Page and Technical SEO: A Semrush Deep Dive (Feb 2024 - Feb 2025)</li>
+                <li>Google Analytics Certification (Feb 2024 - Feb 2027)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Management Skills</h4>
+                    <ul class="skill-list">
+                        <li>Creativity</li>
+                        <li>Negotiation</li>
+                        <li>Critical Thinking</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Technical Skills</h4>
+                    <ul class="skill-list">
+                        <li>MS Excel</li>
+                        <li>MS Word</li>
+                        <li>Canva</li>
+                        <li>Photoshop</li>
+                        <li>Printer Software Installation</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <div class="language-list">
+                        <span class="language-item">English</span>
+                        <span class="language-item">Hindi</span>
+                        <span class="language-item">Sinhala</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
